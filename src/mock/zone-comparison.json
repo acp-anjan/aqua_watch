@@ -1,0 +1,6 @@
+[
+  { "zoneId": "z-001", "zoneName": "Zone One",   "hot": 1450, "cold": 1620 },
+  { "zoneId": "z-002", "zoneName": "Zone Two",   "hot": 1380, "cold": 1510 },
+  { "zoneId": "z-003", "zoneName": "Zone Three", "hot": 1620, "cold": 1750 },
+  { "zoneId": "z-004", "zoneName": "Zone Four",  "hot": 1370, "cold": 1370 }
+]

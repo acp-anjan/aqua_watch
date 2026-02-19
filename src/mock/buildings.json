@@ -1,0 +1,14 @@
+[
+  { "buildingId": "b-001", "zoneId": "z-001", "buildingName": "Building A", "buildingCode": "BLD-A", "lat": 28.16315719565958,  "lng": 84.05792695917323, "floorCount": 4, "isActive": true  },
+  { "buildingId": "b-002", "zoneId": "z-001", "buildingName": "Building B", "buildingCode": "BLD-B", "lat": 28.163899034369884, "lng": 84.05729260982098, "floorCount": 3, "isActive": true  },
+  { "buildingId": "b-003", "zoneId": "z-001", "buildingName": "Building C", "buildingCode": "BLD-C", "lat": 28.16339595714114,  "lng": 84.05731114791354, "floorCount": 5, "isActive": true  },
+  { "buildingId": "b-004", "zoneId": "z-002", "buildingName": "Building D", "buildingCode": "BLD-D", "lat": 28.16260,            "lng": 84.05670,            "floorCount": 2, "isActive": true  },
+  { "buildingId": "b-005", "zoneId": "z-002", "buildingName": "Building E", "buildingCode": "BLD-E", "lat": 28.16295,            "lng": 84.05690,            "floorCount": 6, "isActive": true  },
+  { "buildingId": "b-006", "zoneId": "z-002", "buildingName": "Building F", "buildingCode": "BLD-F", "lat": 28.16235,            "lng": 84.05680,            "floorCount": 3, "isActive": true  },
+  { "buildingId": "b-007", "zoneId": "z-003", "buildingName": "Building G", "buildingCode": "BLD-G", "lat": 28.16280,            "lng": 84.05715,            "floorCount": 4, "isActive": true  },
+  { "buildingId": "b-008", "zoneId": "z-003", "buildingName": "Building H", "buildingCode": "BLD-H", "lat": 28.16255,            "lng": 84.05725,            "floorCount": 2, "isActive": true  },
+  { "buildingId": "b-009", "zoneId": "z-003", "buildingName": "Building I", "buildingCode": "BLD-I", "lat": 28.16240,            "lng": 84.05708,            "floorCount": 7, "isActive": true  },
+  { "buildingId": "b-010", "zoneId": "z-004", "buildingName": "Building J", "buildingCode": "BLD-J", "lat": 28.16430,            "lng": 84.05760,            "floorCount": 3, "isActive": true  },
+  { "buildingId": "b-011", "zoneId": "z-004", "buildingName": "Building K", "buildingCode": "BLD-K", "lat": 28.16450,            "lng": 84.05740,            "floorCount": 2, "isActive": true  },
+  { "buildingId": "b-012", "zoneId": "z-004", "buildingName": "Building L", "buildingCode": "BLD-L", "lat": 28.16415,            "lng": 84.05780,            "floorCount": 5, "isActive": true  }
+]

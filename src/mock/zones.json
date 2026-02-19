@@ -1,0 +1,30 @@
+[
+  {
+    "zoneId": "z-001",
+    "regionId": "r-001",
+    "zoneName": "Zone One",
+    "buildingCount": 3,
+    "isActive": true
+  },
+  {
+    "zoneId": "z-002",
+    "regionId": "r-001",
+    "zoneName": "Zone Two",
+    "buildingCount": 3,
+    "isActive": true
+  },
+  {
+    "zoneId": "z-003",
+    "regionId": "r-002",
+    "zoneName": "Zone Three",
+    "buildingCount": 3,
+    "isActive": true
+  },
+  {
+    "zoneId": "z-004",
+    "regionId": "r-002",
+    "zoneName": "Zone Four",
+    "buildingCount": 3,
+    "isActive": true
+  }
+]

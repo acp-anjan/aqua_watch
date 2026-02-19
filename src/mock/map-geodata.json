@@ -1,0 +1,81 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId":   "z-001",
+        "zoneName": "Zone One",
+        "regionId": "r-001",
+        "status":   "alert"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.05630, 28.16232],
+          [84.05830, 28.16232],
+          [84.05830, 28.16412],
+          [84.05630, 28.16412],
+          [84.05630, 28.16232]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId":   "z-002",
+        "zoneName": "Zone Two",
+        "regionId": "r-001",
+        "status":   "alert"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.05563, 28.16270],
+          [84.05763, 28.16270],
+          [84.05763, 28.16430],
+          [84.05563, 28.16430],
+          [84.05563, 28.16270]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId":   "z-003",
+        "zoneName": "Zone Three",
+        "regionId": "r-002",
+        "status":   "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.05585, 28.16167],
+          [84.05785, 28.16167],
+          [84.05785, 28.16327],
+          [84.05585, 28.16327],
+          [84.05585, 28.16167]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "zoneId":   "z-004",
+        "zoneName": "Zone Four",
+        "regionId": "r-002",
+        "status":   "normal"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [84.05660, 28.16350],
+          [84.05860, 28.16350],
+          [84.05860, 28.16510],
+          [84.05660, 28.16510],
+          [84.05660, 28.16350]
+        ]]
+      }
+    }
+  ]
+}

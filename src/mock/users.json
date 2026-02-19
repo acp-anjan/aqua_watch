@@ -1,0 +1,98 @@
+[
+  {
+    "userId": "u-001",
+    "email": "sadmin@system.com",
+    "username": "sadmin",
+    "fullName": "Super Administrator",
+    "role": "SUPER_ADMIN",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-01-01T00:00:00Z",
+    "lastLoginAt": "2026-02-19T08:00:00Z",
+    "regionAccess": ["r-001", "r-002"]
+  },
+  {
+    "userId": "u-002",
+    "email": "admin@system.com",
+    "username": "admin",
+    "fullName": "System Administrator",
+    "role": "ADMIN",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-01-01T00:00:00Z",
+    "lastLoginAt": "2026-02-18T14:30:00Z",
+    "regionAccess": ["r-001", "r-002"]
+  },
+  {
+    "userId": "u-003",
+    "email": "r.admin@example.com",
+    "username": "radmin_north",
+    "fullName": "Rachel North",
+    "role": "REGIONAL_ADMIN",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-03-15T00:00:00Z",
+    "lastLoginAt": "2026-02-17T09:00:00Z",
+    "regionAccess": ["r-001", "r-002"]
+  },
+  {
+    "userId": "u-004",
+    "email": "r.user@example.com",
+    "username": "ruser_north",
+    "fullName": "Robert User",
+    "role": "REGIONAL_USER",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-04-10T00:00:00Z",
+    "lastLoginAt": "2026-02-15T11:00:00Z",
+    "regionAccess": ["r-001"]
+  },
+  {
+    "userId": "u-005",
+    "email": "z.admin@example.com",
+    "username": "zadmin_z1",
+    "fullName": "Zara Zone",
+    "role": "ZONE_ADMIN",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-05-20T00:00:00Z",
+    "lastLoginAt": "2026-02-12T08:30:00Z",
+    "regionAccess": ["r-001"]
+  },
+  {
+    "userId": "u-006",
+    "email": "z.user@example.com",
+    "username": "zuser_z1",
+    "fullName": "Zach Basic",
+    "role": "ZONE_USER",
+    "isActive": true,
+    "mustResetPassword": false,
+    "createdAt": "2025-06-01T00:00:00Z",
+    "lastLoginAt": "2026-02-10T10:00:00Z",
+    "regionAccess": ["r-001"]
+  },
+  {
+    "userId": "u-007",
+    "email": "new.user@example.com",
+    "username": "newuser",
+    "fullName": "New User",
+    "role": "ZONE_USER",
+    "isActive": false,
+    "mustResetPassword": true,
+    "createdAt": "2026-02-18T12:00:00Z",
+    "lastLoginAt": null,
+    "regionAccess": ["r-002"]
+  },
+  {
+    "userId": "u-008",
+    "email": "inactive@example.com",
+    "username": "inactiveuser",
+    "fullName": "Inactive Person",
+    "role": "REGIONAL_USER",
+    "isActive": false,
+    "mustResetPassword": true,
+    "createdAt": "2025-11-01T00:00:00Z",
+    "lastLoginAt": null,
+    "regionAccess": ["r-001"]
+  }
+]

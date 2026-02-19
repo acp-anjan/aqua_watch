@@ -1,0 +1,80 @@
+{
+  "TODAY": {
+    "period": "TODAY",
+    "totalConsumption": 415,
+    "activeMeters": 56,
+    "totalMeters": 60,
+    "hotConsumption": 194,
+    "coldConsumption": 208,
+    "activeAlerts": 4,
+    "avgBatteryLevel": 71,
+    "deltas": {
+      "totalConsumption":  3.2,
+      "hotConsumption":    1.8,
+      "coldConsumption":   4.1,
+      "activeMeters":     -3.4,
+      "activeAlerts":     33.3,
+      "avgBatteryLevel":  -2.7
+    },
+    "sparklines": {
+      "totalConsumption": [389, 401, 378, 412, 395, 408, 415],
+      "hotConsumption":   [181, 187, 176, 193, 185, 191, 194],
+      "coldConsumption":  [200, 206, 195, 211, 202, 210, 208],
+      "activeMeters":     [58,  58,  57,  57,  57,  56,  56],
+      "activeAlerts":     [2,   3,   3,   4,   3,   4,   4],
+      "avgBatteryLevel":  [74,  73,  73,  72,  72,  71,  71]
+    }
+  },
+  "7D": {
+    "period": "7D",
+    "totalConsumption": 2890,
+    "activeMeters": 56,
+    "totalMeters": 60,
+    "hotConsumption": 1348,
+    "coldConsumption": 1458,
+    "activeAlerts": 4,
+    "avgBatteryLevel": 71,
+    "deltas": {
+      "totalConsumption":  1.9,
+      "hotConsumption":    0.7,
+      "coldConsumption":   2.8,
+      "activeMeters":     -3.4,
+      "activeAlerts":      0.0,
+      "avgBatteryLevel":  -1.4
+    },
+    "sparklines": {
+      "totalConsumption": [2812, 2845, 2798, 2867, 2833, 2879, 2890],
+      "hotConsumption":   [1308, 1326, 1301, 1341, 1322, 1343, 1348],
+      "coldConsumption":  [1408, 1427, 1402, 1438, 1420, 1451, 1458],
+      "activeMeters":     [58,   58,   57,   57,   57,   56,   56],
+      "activeAlerts":     [2,    3,    3,    4,    3,    4,    4],
+      "avgBatteryLevel":  [74,   73,   73,   72,   72,   71,   71]
+    }
+  },
+  "30D": {
+    "period": "30D",
+    "totalConsumption": 12450,
+    "activeMeters": 56,
+    "totalMeters": 60,
+    "hotConsumption": 5820,
+    "coldConsumption": 6250,
+    "activeAlerts": 4,
+    "avgBatteryLevel": 71,
+    "deltas": {
+      "totalConsumption":  5.4,
+      "hotConsumption":    3.2,
+      "coldConsumption":   7.1,
+      "activeMeters":     -6.7,
+      "activeAlerts":    100.0,
+      "avgBatteryLevel":  -4.1
+    },
+    "sparklines": {
+      "totalConsumption": [11812, 12001, 11950, 12120, 12250, 12380, 12450],
+      "hotConsumption":   [5520,  5610,  5580,  5660,  5720,  5780,  5820],
+      "coldConsumption":  [5810,  5890,  5870,  5960,  6020,  6180,  6250],
+      "activeMeters":     [60,    60,    59,    58,    58,    57,    56],
+      "activeAlerts":     [0,     1,     2,     2,     3,     3,     4],
+      "avgBatteryLevel":  [78,    77,    76,    75,    74,    72,    71]
+    }
+  }
+}

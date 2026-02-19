@@ -1,0 +1,18 @@
+[
+  {
+    "regionId": "r-001",
+    "regionName": "North Campus",
+    "description": "Main northern residential and commercial block",
+    "zoneCount": 2,
+    "meterCount": 30,
+    "isActive": true
+  },
+  {
+    "regionId": "r-002",
+    "regionName": "Industrial Block",
+    "description": "Industrial and utility zone",
+    "zoneCount": 2,
+    "meterCount": 30,
+    "isActive": true
+  }
+]

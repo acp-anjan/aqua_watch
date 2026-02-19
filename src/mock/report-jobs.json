@@ -1,0 +1,42 @@
+[
+  {
+    "jobId": "RPT-001",
+    "reportType": "Consumption Summary",
+    "format": "PDF",
+    "status": "READY",
+    "requestedAt": "2026-02-19T09:45:00Z",
+    "completedAt": "2026-02-19T09:46:12Z"
+  },
+  {
+    "jobId": "RPT-002",
+    "reportType": "Hot/Cold Report",
+    "format": "XLSX",
+    "status": "FAILED",
+    "requestedAt": "2026-02-18T14:20:00Z",
+    "errorMessage": "Timeout while aggregating zone data"
+  },
+  {
+    "jobId": "RPT-003",
+    "reportType": "Meter Status Report",
+    "format": "CSV",
+    "status": "READY",
+    "requestedAt": "2026-02-17T11:00:00Z",
+    "completedAt": "2026-02-17T11:00:58Z"
+  },
+  {
+    "jobId": "RPT-004",
+    "reportType": "Zone Comparison",
+    "format": "XLSX",
+    "status": "READY",
+    "requestedAt": "2026-02-16T08:30:00Z",
+    "completedAt": "2026-02-16T08:31:04Z"
+  },
+  {
+    "jobId": "RPT-005",
+    "reportType": "Alert / Event Log",
+    "format": "CSV",
+    "status": "FAILED",
+    "requestedAt": "2026-02-14T16:10:00Z",
+    "errorMessage": "No events found for the selected period"
+  }
+]

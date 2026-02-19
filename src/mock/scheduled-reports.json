@@ -1,0 +1,32 @@
+[
+  {
+    "scheduleId": "SCH-001",
+    "name": "Monthly Consumption Summary",
+    "reportType": "Consumption Summary",
+    "format": "PDF",
+    "frequency": "MONTHLY",
+    "nextRunAt": "2026-03-01T06:00:00Z",
+    "isActive": true,
+    "emailRecipients": ["manager@aquawatch.com", "admin@system.com"]
+  },
+  {
+    "scheduleId": "SCH-002",
+    "name": "Weekly Alert Summary",
+    "reportType": "Alert / Event Log",
+    "format": "XLSX",
+    "frequency": "WEEKLY",
+    "nextRunAt": "2026-02-24T07:00:00Z",
+    "isActive": true,
+    "emailRecipients": ["admin@system.com", "ops@aquawatch.com"]
+  },
+  {
+    "scheduleId": "SCH-003",
+    "name": "Daily Meter Status",
+    "reportType": "Meter Status Report",
+    "format": "CSV",
+    "frequency": "DAILY",
+    "nextRunAt": "2026-02-20T06:00:00Z",
+    "isActive": false,
+    "emailRecipients": ["ops@aquawatch.com"]
+  }
+]
