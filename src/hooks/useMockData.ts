@@ -12,7 +12,8 @@ interface MockDataResult<T> {
  * delay is the fake "network" latency in ms (default 500ms).
  */
 export function useMockData<T>(
-  loader: () => Promise<{ default: T }>,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  loader: () => Promise<{ default: any }>,
   filterFn?: (data: T) => T,
   delay = 500
 ): MockDataResult<T> {
@@ -32,7 +33,7 @@ export function useMockData<T>(
           new Promise(r => setTimeout(r, delay)),
         ])
         if (cancelled) return
-        const raw = mod.default
+        const raw = mod.default as T
         setData(filterFn ? filterFn(raw) : raw)
       } catch (e) {
         if (!cancelled) setError(String(e))

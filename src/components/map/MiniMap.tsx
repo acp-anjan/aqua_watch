@@ -6,12 +6,7 @@ import type { Building, MeterEvent } from '@/types'
 
 interface GeoFeature {
   type: 'Feature'
-  properties: {
-    zoneId:   string
-    zoneName: string
-    regionId: string
-    status:   string
-  }
+  properties: Record<string, string>
   geometry: {
     type:        'Polygon'
     coordinates: number[][][]

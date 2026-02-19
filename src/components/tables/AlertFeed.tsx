@@ -17,7 +17,7 @@ interface AlertFeedProps {
 type FilterMode = 'ALL' | 'UNRESOLVED'
 
 export function AlertFeed({ events, meters, buildings, zones, loading = false }: AlertFeedProps) {
-  const { addToast } = useToast()
+  const { toast } = useToast()
   const [filter, setFilter]     = useState<FilterMode>('UNRESOLVED')
   const [resolved, setResolved] = useState<Set<string>>(new Set())
 
@@ -32,7 +32,7 @@ export function AlertFeed({ events, meters, buildings, zones, loading = false }:
 
   const handleResolve = (eventId: string) => {
     setResolved((prev) => new Set([...prev, eventId]))
-    addToast({ type: 'success', message: 'Alert marked as resolved.' })
+    toast('Alert marked as resolved.', 'success')
   }
 
   if (loading) {

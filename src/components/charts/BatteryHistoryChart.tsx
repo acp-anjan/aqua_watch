@@ -48,7 +48,7 @@ export function BatteryHistoryChart({ data, loading = false }: BatteryHistoryCha
     )
   }
 
-  const current = data.at(-1)?.batteryLevel ?? 0
+  const current = data[data.length - 1]?.batteryLevel ?? 0
   const color   = strokeColor(current)
 
   const chartData = data.map(d => ({
